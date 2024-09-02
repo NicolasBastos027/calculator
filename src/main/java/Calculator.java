@@ -19,30 +19,30 @@ public class Calculator {
                 break;
             }
             if(validation == 1){
-                System.out.print("Write the firts number:");
+                System.out.print("Write the first number:");
                 float num = scanner.nextInt();
-                System.out.print("\nwrite the last one:");
+                System.out.print("\nwrite the second number:");
                 float num2 = scanner.nextInt();
                 System.out.print("\nResult:" + (num/num2) + "\n");
             }
             if(validation == 2){
-                System.out.print("Write the firts number:");
+                System.out.print("Write the first number:");
                 float num = scanner.nextInt();
-                System.out.print("\nwrite the last one:");
+                System.out.print("\nwrite the second number:");
                 float num2 = scanner.nextInt();
                 System.out.print("\nResult:" + (num*num2) + "\n");
             }
             if(validation == 3){
-                System.out.print("Write the firts number:");
+                System.out.print("Write the first number:");
                 float num = scanner.nextInt();
-                System.out.print("\nwrite the last one:");
+                System.out.print("\nwrite the second number:");
                 float num2 = scanner.nextInt();
                 System.out.print("\nResult:" + (num+num2) + "\n");
             }
             if(validation == 4){
-                System.out.print("Write the firts number:");
+                System.out.print("Write the first number:");
                 float num1 = scanner.nextInt();
-                System.out.print("\nwrite the last one:");
+                System.out.print("\nwrite the second number:");
                 float num2 = scanner.nextInt();
                 System.out.print("\nResult:" + (num1 -num2) + "\n");
 
